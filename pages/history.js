@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 import SearchHistory from '../components/SearchHistory'
 import React, { useContext } from 'react'
-import Store from './Store'
+import Store from '../Stores/Store'
 import { observer } from 'mobx-react'
 
 function History() {
